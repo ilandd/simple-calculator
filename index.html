@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+    <title>KALKULATOR</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="kotak"> 
+        <table cellspacing="0"> 
+            <tr> 
+                <td colspan="4">
+                    <div id="inputan-container">
+                        <div id="inputan">0</div>
+                        <div class="scroll-indicator" id="scrollIndicator">▼</div>
+                    </div>
+                </td> 
+            </tr> 
+            <tr class="top-row"> 
+                <td class="left" colspan="2"><button onclick="tombol(this)">AC</button></td> 
+                <td><button onclick="tombol(this)">Del</button></td> 
+                <td class="right"><button onclick="tombol(this)">/</button></td> 
+            </tr>
+            <tr>
+                <td class="left" ><button onclick="tombol(this)">7</button></td> 
+                <td><button onclick="tombol(this)">8</button></td> 
+                <td><button onclick="tombol(this)">9</button></td> 
+                <td class="right"><button onclick="tombol(this)">*</button></td> 
+            </tr> 
+            <tr> 
+                <td class="left"><button  onclick="tombol(this)">4</button></td> 
+                <td><button onclick="tombol(this)">5</button></td> 
+                <td><button onclick="tombol(this)">6</button></td> 
+                <td class="right"><button onclick="tombol(this)">+</button></td> 
+            </tr> 
+            <tr> 
+                <td class="left"><button onclick="tombol(this)">1</button></td> 
+                <td><button onclick="tombol(this)">2</button></td> 
+                <td><button onclick="tombol(this)">3</button></td> 
+                <td class="right"><button onclick="tombol(this)">-</button></td> 
+            </tr> 
+            <tr class="bottom"> 
+                <td class="left" colspan="2"><button  onclick="tombol(this)">0</button></td> 
+                <td><button onclick="tombol(this)">.</button></td> 
+                <td class="right"><button onclick="tombol(this)">=</button></td> 
+            </tr>
+        </table>
+    </div>
+    <footer> 
+        <p>Copyright &copy; 2025 PPLG TEAM </p> 
+    </footer>    
+    <script src="script.js" defer></script>
+</body>
+</html>
